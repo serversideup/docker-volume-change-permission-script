@@ -1,4 +1,4 @@
-# docker-volume-change-permission-script
+# Change Docker Volume Permissions Helper Script
 A helpful script for assisting in the migration of serversideup/php v2 → v3.
 
 > [!CAUTION]
