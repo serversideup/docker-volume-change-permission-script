@@ -4,6 +4,11 @@ A helpful script for assisting in the migration of serversideup/php v2 → v3.
 > [!CAUTION]
 > Be sure to have tested backups before running this script. Root permissions are required, and the script will change the ownership of directories within the Docker volumes base directory. Use this script at your own risk.
 
+### Installation
+```
+curl -o change-volume-permissions.sh https://raw.githubusercontent.com/serversideup/docker-volume-change-permission-script/main/change-volume-permissions.sh && chmod +x change-volume-permissions.sh
+```
+
 ### Usage
 ```bash
 bash change-volume-permissions.sh --volume-prefix <prefix> --permissions <user:group> [--dry-run]
